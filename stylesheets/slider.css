@@ -21,7 +21,7 @@ body  {
 }
 
         #container li  {
-     width: 300px;
+     width: 500px;
      height: 300px;
      position: absolute;
      top: 0;
@@ -57,5 +57,4 @@ body  {
      color: #0010a9;
      text-decoration: underline;
 }
-
 
