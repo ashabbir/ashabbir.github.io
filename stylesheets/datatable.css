@@ -30,6 +30,12 @@
  * DataTables features
  */
 
+table {
+  color : white;
+}
+
+
+
 .dataTables_wrapper {
 	position: relative;
 	clear: both;
@@ -61,18 +67,21 @@
 	width: 50%;
 	float: right;
 	text-align: right;
+  color : blue;
 }
 
 .dataTables_info {
 	width: 60%;
 	float: left;
+  color : pink;
 }
 
 .dataTables_paginate {
 	float: right;
 	text-align: right;
+  color: grey;
 }
-
+ 
 /* Pagination nested */
 .paginate_disabled_previous, .paginate_enabled_previous,
 .paginate_disabled_next, .paginate_enabled_next {
@@ -154,6 +163,7 @@ table.display thead th {
 	border-bottom: 1px solid black;
 	font-weight: bold;
 	cursor: pointer;
+  color: white;
 	* cursor: hand;
 }
 
@@ -247,10 +257,12 @@ table.display tr.even.gradeU {
 
 tr.odd {
 	background-color: #E2E4FF;
+  color: #666666;
 }
 
 tr.even {
 	background-color: white;
+  color:  #633666;
 }
 
 
